@@ -43,7 +43,7 @@ public class inputListener implements ActionListener {
                 if (pNum != 999 && sNum != 999) {
                     final int toChange = sNum - pNum;
                     i = 0;
-                    output.setText(" ");
+                    output.setText("");
                     for (String line : lines) { //s'exécute pour chaque ligne du fichier
                         for (char l : line.toCharArray()) { //s'exécute pour chaque lettre de la ligne "line"
                             if (!alphabet.contains(l)) { //si l n'est pas dans l'alphabet => réécrit tel quel

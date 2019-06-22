@@ -70,14 +70,10 @@ public class inputListener implements ActionListener {
                     }
                     input.setText(" ");
                 } else {
-                    output.setForeground(Color.red);
                     output.setText("Les deux lettres du code doivent être en minuscule ! \n Exemple : \"ab\"");
-                    output.setForeground(Color.white);
                 }
         } else {
-            output.setForeground(Color.red);
             output.setText("Il doit avoir deux lettres dans le code ! \n Exemple : \"ok\"");
-            output.setForeground(Color.white);
         }
     }
 }
